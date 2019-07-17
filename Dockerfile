@@ -7,7 +7,7 @@ MAINTAINER Mehmet Babat <babat.mhmet@gmail.com>
 #Command Buraya kadar olsaydı ubuntu image'ını direkt olarak build edebilirdik.
 
 #Image'a ping eklemek için yapılacak işlemler.
-#Ayrıca bu işlemler ubuntu image'ı ile koşulacak olan container içinde koşacak command'lerdir. Yani ubuntu'nun kendi command'leri"
+#Ayrıca bu işlemler ubuntu image'ı ile koşulacak olan container içinde koşacak command'lerdir. Burada ubuntu'nun kendi command'leridir
 #Belirttiğimiz image'ı update'leriz
 RUN apt-get update 
 
