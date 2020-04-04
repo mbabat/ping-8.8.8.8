@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER Mehmet Babat <babat.mhmet@gmail.com>
 
-RUN apt-get update 
+RUN apt-get update -y
 
 # For ping parameter.
 RUN apt-get install -y inetutils-ping 
